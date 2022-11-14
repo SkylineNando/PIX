@@ -29,7 +29,7 @@ $curl = curl_init();
     CURLOPT_HTTPHEADER => array(
         'accept: application/json',
         'content-type: application/json',
-        'Authorization: Bearer APP_USR-1456542728372245-111407-e2d2bedaacfea615c9becde48f0e865d-248252678'
+        'Authorization: Bearer {Access Token}'
     ),
     ));
     $response = curl_exec($curl);
