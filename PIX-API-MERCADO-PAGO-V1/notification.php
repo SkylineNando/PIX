@@ -1,7 +1,7 @@
 <?php include('config.php');?>
 <?php
 
-$collector_id = 51503947553;
+$collector_id = $_REQUEST['id'];
 
 $curl = curl_init();
 
